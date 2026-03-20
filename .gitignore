@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+.claude/
+
+# Build outputs
+.build/
+
+
