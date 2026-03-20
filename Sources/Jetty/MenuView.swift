@@ -49,7 +49,8 @@ struct MenuContentView: View {
             DividerWithPadding()
             
             QuitRow().padding(.vertical, 6).padding(.horizontal, 8)
-        }.frame(width: 300)
+        }
+        .frame(width: 300)
         .alert(vm.killError?.title ?? "", isPresented: Binding(
             get: { vm.killError != nil },
             set: { if !$0 { vm.killError = nil } }

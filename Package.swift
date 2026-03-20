@@ -10,7 +10,7 @@ let package = Package(
         .executableTarget(
             name: "Jetty",
             path: "Sources/Jetty",
-            exclude: ["Resources/Info.plist"]
+            exclude: ["Resources/Info.plist", "Resources/Jetty.icns", "Resources/Jetty.iconset"]
         )
     ]
 )

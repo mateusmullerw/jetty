@@ -18,5 +18,7 @@
     <string>NSApplication</string>
     <key>NSHighResolutionCapable</key>
     <true/>
+    <key>CFBundleIconFile</key>
+    <string>Jetty</string>
 </dict>
 </plist>
